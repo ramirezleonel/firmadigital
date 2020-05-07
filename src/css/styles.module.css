@@ -1,0 +1,49 @@
+body {
+    background-color: gray;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .sigContainer {
+    margin-bottom : 20px!important;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    border: 1px dashed black;
+    background-color: #fff;
+  }
+  
+  .sigPad {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .buttons {
+
+    margin: 10px!important;
+  }
+  @media only screen and (max-width: 600px) {
+   .buttons {
+    width: 100%;
+    height: 40px;
+  }
+  }
+  .sigImage {
+    background-size: 200px 50px;
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
